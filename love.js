@@ -11,7 +11,7 @@ function loveCheck(input) {
 }
 
 for (i = ''; i !== 'That\'s damn right!';) {
-  let userInput = rlsync.question('How much does  Steve love Christen? ');
+  let userInput = rlsync.question('How much does Steve love Christen? ');
   i = loveCheck(userInput);
   console.log(i)
 }
